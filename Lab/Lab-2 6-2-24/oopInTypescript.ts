@@ -37,3 +37,4 @@ class Employee1 {
 
 let emp2= new Employee1(1,"JOY",21, true);
 emp2.display(); // ID=1 NAME JOY, AGE=21, ISOKAY=true
+
