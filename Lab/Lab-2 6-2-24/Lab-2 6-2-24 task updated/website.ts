@@ -6,7 +6,7 @@ import {Student} from'./student';
 
 
 const teacher1= new Teacher ("Mashiur Rahman");
-const course1= teacher1.makeCourse("Science","CS Math","IP");
+const course1= teacher1.makeCourse("CS MATH","CS4001","CS Mathematics");
 const student1= new Student ("Naimul",1);
 
 student1.register(course1);

@@ -1,4 +1,5 @@
 import { course } from './courses';
+import { Teacher } from './teacher';
 
 export class Student {
     private sName: string;
@@ -8,7 +9,7 @@ export class Student {
     constructor(sName: string, sId: number) {
         this.sName = sName;
         this.sId = sId;
-        this.takenCourses = [];
+        this.takenCourses = []; // array of courses
     }
 
     register(course: course): void {
